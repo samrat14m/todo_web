@@ -1,0 +1,203 @@
+.main-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.head{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 850px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    color: rgb(100, 100, 100);
+    letter-spacing: 0.3rem;
+}
+.head-task{
+    
+    flex: 1;
+    font-size: 3.2rem;    
+}
+.task{
+    font-weight: 700;
+    color: black;
+}
+.head-add-task{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex:1;
+    margin:0px 50px;
+}
+.material-icons{
+    font-size: 30px;
+    color:orangered;
+}
+.add{
+    font-size: 1.6rem;
+}
+.container{
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: none;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    height: 350px;
+    width: 250px;
+    border: 1.8px solid orangered;
+    border-radius: 10px;
+    margin:0px 30px 10px 30px;
+    box-shadow: 10px 10px 20px gray;
+}
+.strike{
+    text-decoration:line-through;
+    font-size: 1.3em;
+    text-align: end;
+    padding:20px;
+    color: orangered;
+    font-family:Arial, Helvetica, sans-serif;
+}
+hr{
+ 
+    width: 85%;
+    position: relative;
+    left:19px;
+    border: 0.7px solid rgb(0, 2, 70);
+}
+.task-head{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8em;
+    padding:40px 0px 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: orangered;
+    font-weight: 300;
+}
+.pending{
+ display: inline;
+ color: black;
+ padding-left: 10px;
+ font-size: 1.2em;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* trip tp paris page */
+
+.ttp-head{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    width: auto;
+    margin: 10px;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(100, 100, 100);
+    letter-spacing: 3px;
+    padding: 10px;
+}
+.ttp-box{
+    width: 320px;
+    height:360px;
+    margin: auto;
+
+}
+.ttp-task-head{
+    font-size: 1.8rem ;
+    font-weight:300;
+    letter-spacing: 3px;
+}
+.ttp-box-container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.ttp-strike{
+    font-size: 1.3rem ;
+    text-align:end;
+    padding:20px 50px 0px 0px;
+}
+.ttp-pending{
+    height:125px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.ttp-add{
+    text-align: end;
+    font-size: 1.5rem;
+    padding:15px;
+}
+.main-header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.line{    
+    width:200px;
+    position: relative;
+    left:-20px;
+    top: 35px;
+}
+
+/* blurring pages */
+.blurred{
+    filter:blur(4px);
+}
+.on-top{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width:430px;
+    background-color: white;
+    border: 1.8px solid orangered;
+    border-radius: 10px;
+    margin:0px 30px 10px 30px;
+    box-shadow: 10px 10px 20px gray;
+    z-index: +2px;
+    position: relative;
+    top:-375px;
+    left:375px;
+}
+.new{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    color: orangered;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.input{
+    border: 1.5px solid orangered;
+    border-radius: 5px;
+    height: 40px;
+    width: 320px;
+}
+.button-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid orangered;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    height: 2rem;
+    width:5rem;
+}
